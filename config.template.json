@@ -1,0 +1,54 @@
+{
+    "_comment": "Desktop Buddy Configuration Template",
+    "_comment2": "On first run, the setup wizard will help you configure this",
+    "llm": {
+        "mode": "groq",
+        "ollama_model": "llama3.2:latest",
+        "gemini_model": "gemini-pro",
+        "gemini_api_key": "",
+        "groq_api_key": "",
+        "groq_model": "llama-3.3-70b-versatile"
+    },
+    "preferences": {
+        "prefer_online": true,
+        "auto_fallback": true
+    },
+    "sentiment": {
+        "enabled": true,
+        "sensitivity": 0.5,
+        "empathy_mode": true
+    },
+    "tts": {
+        "engine": "edge",
+        "fallback_engine": "edge",
+        "voice_preset": "indian_english",
+        "voice": {
+            "piper_model": "en_US-lessac-medium",
+            "edge_voice": "en-IN-NeerjaNeural",
+            "speed": 1.15,
+            "pitch_shift": 1.15
+        },
+        "voice_presets": {
+            "anime_english": {
+                "edge_voice": "en-US-AnaNeural",
+                "speed": 1.2,
+                "description": "Young American female, anime-style"
+            },
+            "indian_english": {
+                "edge_voice": "en-IN-NeerjaNeural",
+                "speed": 1.15,
+                "description": "Indian English female, clear and friendly"
+            },
+            "hinglish": {
+                "edge_voice": "en-IN-NeerjaNeural",
+                "speed": 1.1,
+                "description": "Indian English, perfect for Hindi-English mix"
+            },
+            "hindi": {
+                "edge_voice": "hi-IN-SwaraNeural",
+                "speed": 1.1,
+                "description": "Hindi female voice"
+            }
+        }
+    }
+}

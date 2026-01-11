@@ -1,0 +1,13 @@
+ollama
+PyQt5
+SpeechRecognition
+pyaudio
+edge-tts
+pygame
+google-generativeai
+textblob
+numpy
+piper-tts
+youtube-search-python
+duckduckgo-search
+groq
